@@ -4,6 +4,24 @@ CodeAlpha Full Stack Development Internship — **Task 4**.
 A working multi-user video meeting app: real WebRTC calls, screen share, live chat,
 collaborative whiteboard, and file sharing, built on the MERN stack + Socket.IO.
 
+## Live Demo
+
+- **App:** https://codealpha-tasks-2-three.vercel.app
+- **API:** https://codealpha-tasks-2-hfoj.onrender.com
+
+Backend is on Render's free tier — it sleeps after inactivity, so the first request
+after idle can take 30-60s to wake up.
+
+## Screenshots
+
+| Landing Page | Dashboard |
+|---|---|
+| ![Landing page](docs/screenshots/landing.png) | ![Dashboard](docs/screenshots/dashboard.png) |
+
+| Meeting Room | Whiteboard |
+|---|---|
+| ![Meeting room](docs/screenshots/meeting-room.png) | ![Whiteboard](docs/screenshots/whiteboard.png) |
+
 ## Features
 
 - User authentication (JWT, bcrypt password hashing)
